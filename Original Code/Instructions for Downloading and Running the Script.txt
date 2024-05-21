@@ -1,0 +1,15 @@
+Instructions for Downloading and Running the Script
+1-Select download all files from the Mendeley Data page (https://data.mendeley.com/datasets/cp3473x7xv/2). 
+2-The files will be downloaded as a zip file.  Unzip the file to a folder, do not modify the folder structure. 
+3-Navigate to the folder with "FNN_xEV_Li_ion_SOC_EstimatorScript_March_2020.mlx"
+4-Open and run "FNN_xEV_Li_ion_SOC_EstimatorScript_March_2020.mlx"
+5-The matlab script should run without any modification, if there is an issue it's likely due to the testing and training data not being in the expected place.
+6-The script is set by default to train for 50 epochs and to repeat the training 3 times.  This should take 5-10 minutes to execute.
+7-To recreate the results in the paper, set number of epochs to 5500 and number of repetitions to 10.
+
+
+The FNN results using the prepared dataset "LGHG2@n10C_to_25degC", and script "FNN_xEV_Li_ion_SOC_EstimatorScript_Jan_2020" may present small variations from the results presented in the paper [1].
+It may require to train the FNN several times as discussed in the paper as well. For more information refer to the paper [1].
+
+[1] Vidal, C.,Kollmeyer, P., Naguib, M., Malysz, P.,Gross, O. and Emadi, A. (2020). Robust xEV Battery State-of-Charge Estimator Design using Deep Neural Networks. [online] 
+Sae.org. Available at: https://www.sae.org/publications/technical-papers/content/2020-01-1181/ [Accessed 28 Jan. 2020]
